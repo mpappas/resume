@@ -141,7 +141,7 @@
 \newenvironment{aside}{%
   \let\oldsection\section
   \renewcommand{\section}[1]{
-    \par\vspace{1.4\baselineskip}{\LARGE\headingfont\color{sectioncolor} ##1}\vspace{\parskip}% space under subsection vspace default: 'baselineskip
+    \par\vspace{0.5\baselineskip}{\LARGE\headingfont\color{sectioncolor} ##1}\vspace{\parskip}% space under subsection vspace default: 'baselineskip
   }
   \begin{textblock}{3.6}(1.5, 4.33) % default:{3.6}(1.5, 4.33)
   \begin{flushright}
