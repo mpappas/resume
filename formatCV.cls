@@ -18,14 +18,15 @@
 \definecolor{white}{RGB}{255,255,255}
 
 \definecolor{darkgray}{HTML}{333333}
-\definecolor{gray}{HTML}{4D4D4D}
-\definecolor{lightgray}{HTML}{999999}
+\definecolor{gray}{HTML}{119EB8}
+\definecolor{lightgray}{HTML}{fffff}
 
 \definecolor{green}{HTML}{C2E15F}
 \definecolor{orange}{HTML}{FDA333}
 \definecolor{purple}{HTML}{D3A4F9}
 \definecolor{red}{HTML}{FB4485}
 \definecolor{blue}{HTML}{6CE0F1}
+\definecolor{lighterblue}{HTML}{119EB8}
 
 \ifdefined\@cv@print
   \colorlet{green}{gray}
@@ -42,7 +43,7 @@
 \fi
 \colorlet{textcolor}{gray}
 \colorlet{headercolor}{darkgray}
-\colorlet{sectioncolor}{Emerald}
+\colorlet{sectioncolor}{lighterblue}
 
 %%%%%%%%%
 % Fonts %
